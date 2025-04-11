@@ -64,6 +64,7 @@ export const skillsImage = (skill) => {
   
     case 'git':
       return git;
+      
     case 'graphql':
       return graphql;
    
@@ -75,12 +76,6 @@ export const skillsImage = (skill) => {
     case 'figma':
       return figma;
    
-    case 'haxe':
-      return haxe;
-   
-   
-    case 'wolframalpha':
-      return wolframalpha;
     
     default:
       break;

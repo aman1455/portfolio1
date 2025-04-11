@@ -13,7 +13,6 @@ export const skillsData = [
   'Docker',
   'Figma',
   'Firebase',
-  'MaterialUI',
   'Strapi'
 ]
 

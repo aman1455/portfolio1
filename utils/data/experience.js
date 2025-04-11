@@ -3,7 +3,7 @@ export const experiences = [
     id: 1,
     title: 'Mern stack InternShip',
     company: "Delonix Private Ltd.",
-    duration: "(Jul 2024 - Present)"
+    duration: "(Jul 2024 - sep 2024)"
   },
   {
     id: 2,
