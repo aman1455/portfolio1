@@ -6,6 +6,8 @@ const GlowCard = ({ children , identifier}) => {
     const CONTAINER = document.querySelector(`.glow-container-${identifier}`);
     const CARDS = document.querySelectorAll(`.glow-card-${identifier}`);
 
+    if (!CONTAINER || CARDS.length === 0) return;
+
     const CONFIG = {
       proximity: 40,
       spread: 80,
